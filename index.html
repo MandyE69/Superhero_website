@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Heroes & Anime Champions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt"></i>
+                <span>SUPERHEROES</span>
+            </div>
+            <div class="nav-links">
+                <a href="#superheroes" class="nav-link">Marvel Heroes</a>
+                <a href="#anime" class="nav-link">Anime Champions</a>
+                <div class="theme-toggle-wrapper">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <div class="toggle-track">
+                            <div class="toggle-sun">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <div class="toggle-moon">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <div class="toggle-thumb"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="floating-elements">
+            <i class="fas fa-shield-alt"></i>
+            <i class="fas fa-bolt"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-fire"></i>
+            <i class="fas fa-meteor"></i>
+        </div>
+        <div class="hero-content">
+            <h1>Marvel Heroes & Anime Champions</h1>
+            <p class="hero-subtitle">Explore the greatest heroes from two legendary universes</p>
+            <div class="hero-buttons">
+                <a href="#superheroes" class="btn btn-primary">Discover Heroes</a>
+                <a href="#anime" class="btn btn-secondary">Explore Anime</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="superheroes" class="character-section">
+            <h2 class="section-title">Marvel Heroes</h2>
+            <div class="character-grid" id="superhero-grid"></div>
+        </section>
+
+        <section id="anime" class="character-section">
+            <h2 class="section-title">Anime Champions</h2>
+            <div class="character-grid" id="anime-grid"></div>
+        </section>
+    </main>
+
+    <!-- Movie Timeline Modal Template -->
+    <div class="modal" id="movie-modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2 class="character-name" id="modal-character-name"></h2>
+            <div class="timeline" id="movie-timeline"></div>
+        </div>
+    </div>
+
+    <!-- Character Card Template -->
+    <template id="character-card-template">
+        <div class="character-card">
+            <div class="card-front">
+                <img class="character-image" src="" alt="">
+                <div class="card-front-content">
+                    <h3 class="character-name"></h3>
+                </div>
+            </div>
+            <div class="card-back">
+                <div class="character-info">
+                    <h3 class="character-name"></h3>
+                    <p class="character-description"></p>
+                    <div class="abilities"></div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Timeline Item Template -->
+    <template id="timeline-item-template">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <div class="timeline-date"></div>
+                <h3 class="timeline-title"></h3>
+                <p class="timeline-description"></p>
+            </div>
+        </div>
+    </template>
+
+    <footer>
+        <p>&copy; 2024 Marvel Heroes & Anime Champions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
