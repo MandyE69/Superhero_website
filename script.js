@@ -13,7 +13,7 @@ const superheroes = [
     },
     {
         name: "Iron Man",
-        image: "/images/iron-man.jpg",
+        image: "https://cdn.pixabay.com/photo/2021/07/20/14/59/iron-man-6480952_640.jpg",
         description: "Genius billionaire Tony Stark in a high-tech suit of armor, protecting the world with advanced technology.",
         abilities: ["Powered Armor", "Genius Intellect", "Flight", "Energy Blasts"],
         movies: [
@@ -24,7 +24,7 @@ const superheroes = [
     },
     {
         name: "Black Widow",
-        image: "/images/black.jpg",
+        image: "https://assets-prd.ignimgs.com/2021/03/23/black-widow-button-1616528351974.jpg",
         description: "Master spy and expert combatant, Natasha Romanoff is one of S.H.I.E.L.D.'s most valuable agents.",
         abilities: ["Master Spy", "Expert Combatant", "Tactical Genius", "Weapons Expert"],
         movies: [
@@ -37,19 +37,19 @@ const superheroes = [
 const animeCharacters = [
     {
         name: "Naruto Uzumaki",
-        image: "/images/naruto.jpg",
+        image: "https://i.redd.it/today-is-october-10-happy-birthday-naruto-uzumaki-btw-v0-ov6g99si9btb1.jpg?width=735&format=pjpg&auto=webp&s=774f28689976e2664f99aba41a9ba46196962546",
         description: "A determined ninja with dreams of becoming the Hokage of his village.",
         abilities: ["Rasengan", "Shadow Clone Jutsu", "Sage Mode", "Nine-Tails Chakra"]
     },
     {
         name: "Monkey D. Luffy",
-        image: "/images/dluffy.jpg",
+        image: "https://4kwallpapers.com/images/wallpapers/monkey-d-luffy-2048x2048-14997.png",
         description: "Captain of the Straw Hat Pirates, with the power of the Gum-Gum Devil Fruit.",
         abilities: ["Gum-Gum Powers", "Haki", "Gear Transformations", "Incredible Strength"]
     },
     {
         name: "Eren Yeager",
-        image: "/images/eren.jpg",
+        image: "https://static.wikitide.net/greatcharacterswiki/thumb/3/3d/Eren_Paths.jpg/800px-Eren_Paths.jpg",
         description: "A determined soldier fighting for humanity's freedom against the Titans.",
         abilities: ["Titan Shifting", "ODM Gear Expert", "Hand-to-Hand Combat", "Strategic Mind"]
     }
